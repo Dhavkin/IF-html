@@ -22,3 +22,15 @@ img.first-pic {
     height: auto;
 }
 
+.bold{
+    font-weight: 700;
+}
+
+.unmarked {
+        margin-left: 0;
+        padding-left: 4em;
+}
+
+.unmarked {
+    list-style-type: circle;
+}
