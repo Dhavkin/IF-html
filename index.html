@@ -123,8 +123,33 @@ p.s. непонятно, почему он сам отодвигает теги 
 </table>
 
 <form>
-    <fieldset>My first form</fieldset>
+ <fieldset>
+     <legend>My first form </legend>
+    <p> Name: <br>  
+        <!-- можно было без p/br обернуть текст в span? -->
+        <input type="text" name="firstname" placeholder="Name" > 
+    </p>
+    <p> Email:<br>
+        <input type="text" name="e-mail"> 
+    </p>
+    <p> Password <br>
+        <input type="text" name="Password">
+    </p>
+    <p> Your programming level <br>
+        <input type="range" min="0" max="10" step="1" value="5"
+    </p>
+    <p> What does HTML stands for?</p>
+    <div>
+
+    </div>
+ </fieldset>
 </form>
+
+
+
+
+
 <script src="./index.js"></script>
+
 </body>
 </html>
