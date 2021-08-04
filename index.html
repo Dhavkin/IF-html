@@ -120,9 +120,9 @@ p.s. непонятно, почему он сам отодвигает теги 
             <td>Defines the footer content in a table</td>
         </tr>
     </tbody>
-</table>
+ </table>
 
-<form>
+ <form>
  <fieldset>
      <legend>My first form </legend>
     <p> Name: <br>  
@@ -138,18 +138,40 @@ p.s. непонятно, почему он сам отодвигает теги 
     <p> Your programming level <br>
         <input type="range" min="0" max="10" step="1" value="5"
     </p>
-    <p> What does HTML stands for?</p>
     <div>
+        <p>What does html stand for?</p>
+        <input type="checkbox" name="first-box" id="box1" required>Hyperlinks and Text markup Language <br>
+         <input type="checkbox" name="second-box" id="box2" >Home tool markup Language <br>
+         <input type="checkbox" name="third-box" id="box3" >Hyper text markup language <br>
+    </div>
+    <div>
+        <p> What does HTTP stand for?</p>
+       <input name="one" type="radio" required>  Hyper text translate protocol <br>
+       <input name="two" type="radio" > Hyper text transmission protocol <br>
+       <input name="three" type="radio" > Hyper text transfer protocol<br>
+    </div>
+    <div>
+    <p>Comment</p>
+        <textarea name="coment" id="tarea" cols="15" rows="3">
+            comment
+            <!-- maybe placeholder req here , didnt understand that -->
+        </textarea>
+    </div>
+    <div>
+        <p> What HTML stand for?</p>
+        <select id="select-list">
+            <option>Your answer</option>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+            <option>25</option>
+        </select>
 
     </div>
+    <button class= only-one type="submit">Send</button>
  </fieldset>
 </form>
 
-
-
-
-
 <script src="./index.js"></script>
-
 </body>
 </html>
