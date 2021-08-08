@@ -1,0 +1,48 @@
+/********************************
+hEADER STYLES
+********************************/
+
+header {
+    background-color: #fafafa;
+}
+
+p.symbone:after { 
+    content: '\21D2'; 
+}
+
+p.symbtwo::after {
+    content: '\21D2';
+}
+
+img.first-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.unmarked {
+        margin-left: 0;
+        padding-left: 4em;
+}
+
+.unmarked {
+    list-style-type: circle;
+}
+
+.table {
+    border: 1px solid rgb(32, 32, 32);
+}
+
+.tbody {
+    font-weight: bold;
+    font-size: 16px;
+}
+.only-one {
+    margin-top: 5px;
+}
